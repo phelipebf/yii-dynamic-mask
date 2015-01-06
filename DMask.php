@@ -34,7 +34,7 @@ class DMask extends CWidget {
     public function init() {
         $assets = dirname(__FILE__) . '/' . 'assets';
         $this->assetsPath = Yii::app()->getAssetManager()->publish($assets);
-        Yii::app()->getClientScript()->registerScriptFile($this->assetsPath . '/' . 'jquery.maskedinput.js');
+        Yii::app()->getClientScript()->registerScriptFile($this->assetsPath . '/' . 'jquery.maskedinput.min.js');
         Yii::app()->clientScript->registerCoreScript('jquery');
     }
 
