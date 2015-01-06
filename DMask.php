@@ -2,7 +2,7 @@
 /**
  * DMask Class File
  * 
- * @author Phelipe B. Folgierini  <mettalph@gmail.com>
+ * @author Phelipe B. Folgierini  <phelipebf@gmail.com>
  * @version 1
  * @license http://www.opensource.org/licenses/mit-license.php MIT license
  * 
@@ -27,7 +27,7 @@ class DMask extends CWidget {
     public $config = array();
        
     /**
-     * @var string this will be used to get the currency symbol if $config['symbol'] is not given
+     * @var string this will be used to get the mask if $config['mask'] is not given
      */
     public $mask;
     
